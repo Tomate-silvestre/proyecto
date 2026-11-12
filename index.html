@@ -204,12 +204,23 @@
     </a-plane>
 
     <!-- Cámara: comienza dentro del vagón -->
-    <a-entity
-      camera
-      position="0 1.6 3.3"
-      look-controls="pointerLockEnabled: true"
-      wasd-controls="acceleration: 8; fly: false">
-    </a-entity>
+     <a-entity
+    cursor="fuse: false; rayOrigin: entity"
+    raycaster="objects: .clickeable; far: 20"
+    position="0 0 -0.5"
+    geometry="primitive: ring; radiusInner: 0.003; radiusOuter: 0.005"
+    material="shader: flat; color: #333333; depthTest: false"
+    animation__entrar="
+      property: material.color;
+      startEvents: mouseenter;
+      to: #FFB300;
+      dur: 100"
+    animation__salir="
+      property: material.color;
+      startEvents: mouseleave;
+      to: #333333;
+      dur: 100">
+  </a-entity>
 
   </a-scene>
 </body>
