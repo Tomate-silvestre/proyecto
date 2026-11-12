@@ -163,7 +163,7 @@
 </head>
 
 <body>
-  <a-scene background="color: #CEE5EA">
+  <a-scene cursor="rayOrigin: mouse"> 
    <a-box position="-1.3 1 2" scale="0.4 0.4 0.4"
      color="#ff2301" animation__click="property: position;
       from: 1.3 1 0; to: 1.3 1.8 0;
@@ -207,13 +207,7 @@
 
     
 
-    <!-- Cámara: comienza dentro del vagón -->
-    <a-entity
-      camera
-      position="0 1.6 3.3"
-      look-controls="pointerLockEnabled: true"
-      wasd-controls="acceleration: 8; fly: false">
-    </a-entity>
+    
 
   </a-scene>
 </body>
