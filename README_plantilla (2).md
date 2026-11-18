@@ -10,7 +10,7 @@ Al ser una herramienta terapéutica el usuario debe estar en un proceso de inter
 Ansiedad, frustración, descubrimiento y resignificación, todo de manera gestionable  
 Una o dos frases: qué experiencia es, para quién es y qué debería sentir quien entra.
 
-Resignificación
+Palabra: Resignificación
 
 ## 2 · Cómo se usa
 
@@ -29,35 +29,42 @@ loe activos a ocupar son lso siguientes
 
 ## 4 · Decisiones
 
-- Qué decidí y por qué (luz, sonido, materiales, interacción).
-- Qué cambió respecto de lo que propuse en la Solemne 1, y por qué.
+El uso del cartón como materialidad hace referencia a la estación de la infancia, buscando emular que los elementos presentes en las interacciones corresponden a juguetes u objetos elaborados por niños. Asimismo, esta elección estética establece una relación visual con los materiales y recursos utilizados habitualmente en la educación parvularia.
+
+La iluminación en las escenas de la estación y el vagón se caracteriza por ser suave y ambiental, sin una intención comunicacional específica más allá de iluminar los espacios. En cambio, en la escena del niño se utiliza una iluminación más dura y direccionada hacia él, generando sombras más pronunciadas que contrastan con la luz ambiental. Además, se incorpora una neblina de fondo con el propósito de dificultar el reconocimiento inmediato del entorno y de la naturaleza de la interacción.
+
+En términos generales, se mantiene el concepto planteado en la Solemne 1, incorporando modificaciones principalmente conceptuales más que técnicas. Uno de los cambios más relevantes corresponde a la organización del recorrido, que ahora se estructura a través de vagones en lugar de estaciones. Cada vagón representará un período de la vida del usuario, permitiendo desarrollar las distintas etapas de su trayectoria vital. En esta oportunidad, el trabajo se concentra exclusivamente en la primera etapa, correspondiente a la infancia, siguiendo las sugerencias realizadas durante la evaluación de la Solemne 1.
+
+A nivel técnico, actualmente se trabaja con elementos construidos directamente en A-Frame, sin incorporar los activos tridimensionales originales, debido a las dificultades que se han presentado durante los intentos de integrarlos al proyecto. Esta decisión no corresponde a una modificación permanente de la propuesta, sino a una solución temporal que permite continuar desarrollando las escenas y sus interacciones hasta lograr incorporar correctamente los activos 3D.
 
 ## 5 · Testing
 
 Video del recorrido: https://...
 
 ### Abrir el enlace en ventana privada
-- Resultado: ...
-- Ajuste que hice: ...
+- Resultado: funciona como se espera
+- Ajuste que hice: no se realzian
 
 ### Dispositivo elegido
-- Resultado: ...
-- Ajuste que hice: ...
+- Resultado: computador, funciona como se espera
+- Ajuste que hice: no se realzian
 
 ### Interacciones, una por una
-- Resultado: ...
+- Resultado: cubo funciona como se espera, cono funciona como se espera , esfera funciona como se espera
 - Ajuste que hice: ...
 
 ### Sonido con audífonos
-- Resultado: ...
-- Ajuste que hice: ...
+- Resultado: no se logra importar el activo de sonido
+- Ajuste que hice: aun em porceso de funcionamiento
 
 ### Fluidez del recorrido
-- Resultado: ...
-- Ajuste que hice: ...
+- Resultado: funciona en cierto modo...
+- Ajuste que hice: en proceso de mejorar la fluidez en las estacion y el vagón
+- funciona como se espera en el niño inyerior 
+- ...
 
 ### Entrar como si fuera la primera vez
-- Resultado: ...
+- Resultado: funciona como se espera
 - Ajuste que hice: ...
 
 ## 6 · Uso de IA
@@ -72,4 +79,4 @@ El resultado hasta esta etapa corresponde a una estructura interactiva prelimina
 
 ## 7 · Pendientes para el examen
 
-- 1 establecer la vinculación de las interacciones a la pagina del vagón y la estación y de las interacciones de vuelta al vagón, lograra insertar los activos y trabajar con los diseños en contexto a la experiencia y establecer los sonidos necesarios, diseñar las interacciones faltantes para completar las experiencias, establecer el limite de movimiento para evitar los desaforos  
+- 1 establecer la vinculación de las interacciones a la pagina del vagón y la estación y de las interacciones de vuelta al vagón, lograra insertar los activos y trabajar con los diseños en contexto a la experiencia y establecer los sonidos necesarios, diseñar las interacciones faltantes para completar las experiencias, establecer el limite de movimiento para evitar los desaforos, mejorar la fluidez de movimiento dentro de las interacciones de la estación y el Vagón  
